@@ -1,0 +1,698 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* section1 */
+main .section1 {
+    background-image: url(assets/1e337aca6926e6390da9170be3bb09db\ \(1\).png);
+    padding: 40px 120px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+
+main .section1 .imgSec1 {
+    width: 113px;
+    height: 103px;
+}
+
+main .section1 .imgSec1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .section1 .section1Text {
+    padding: 100px 0px 120px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: end;
+
+}
+
+main .section1 .section1Text h1 {
+    color: red;
+    font-size: 80px;
+}
+
+main .section1 .section1Text h2 {
+    font-size: 60px;
+    color: white;
+}
+
+main .section1 .section1Text p {
+    font-family: sans-serif;
+    text-align: end;
+    padding: 0px 0px 0px 420px;
+    color: white;
+}
+
+main .section1 .section1Text button {
+    color: white;
+    background-color: #f15048;
+    border-radius: 40px;
+    width: 150px;
+    height: 60px;
+    border-color: #f15048;
+}
+
+main .section1 .section1Text:hover button {
+    background-color: red;
+}
+
+/* section1 */
+/* section2 */
+main .section2 {
+    padding: 80px 120px;
+}
+
+main .section2 .imgSec2 {
+    height: 650px;
+    width: 650px;
+    position: absolute;
+    top: 600px;
+    right: 0;
+}
+
+main .section2 .imgSec2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .section2 .section2Text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    font-family: sans-serif;
+}
+
+main .section2 .section2Text h1 {
+    width: 0;
+    font-size: 55px;
+}
+
+main .section2 .section2Text button {
+    border-radius: 50px;
+    border-color: red;
+    background-color: red;
+    color: white;
+    width: 130px;
+    height: 40px;
+}
+
+/* section2 */
+/* section3 */
+main .section3 {
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+
+}
+
+main .section3 .section3Text {
+    position: absolute;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main .section3 .section3Text h1 {
+    font-size: 45px;
+}
+
+main .section3 .section3Text h4 {
+    font-family: sans-serif;
+}
+
+main .section3 .section3Text p {
+    font-family: sans-serif;
+}
+
+main .section3 .section3Text button {
+    height: 45px;
+    width: 120px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+main .section3 .imgSec3 {
+    display: flex;
+    align-items: center;
+    padding: 120px;
+
+}
+
+main .section3 .img1Sec3 {
+    height: 300px;
+    width: 300px;
+}
+
+main .section3 .img1Sec3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+main .section3 .img2Sec3 {
+    height: 500px;
+    width: 650px;
+    position: absolute;
+    right: 120px;
+    background-position: right;
+
+}
+
+main .section3 .img2Sec3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* section3 */
+/* section4 */
+main .section4 iframe {
+    width: 100%;
+    height: 100vh;
+}
+
+/* section4 */
+/* section5 */
+main .section5 {
+    background-image: url(assets/a6c35c62bce47208591fd73322842059.png);
+    width: 100%;
+    position: relative;
+    bottom: 4px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-size: 100%;
+
+}
+
+main .section5 .section5Text {
+    width: 500px;
+    padding: 40px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+    font-family: sans-serif;
+    justify-content: end;
+
+}
+
+main .section5 .section5Text p {
+    text-align: end;
+
+}
+
+main .section5 .section5Text h1 {
+    font-size: 30px;
+}
+
+main .section5 .section5Text button {
+    height: 45px;
+    width: 120px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+/* section5 */
+/* section6 */
+main .section6 .section6Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .section6 h1 {
+    font-size: 40px;
+}
+
+main .section6 h3 {
+    display: flex;
+    justify-content: center;
+}
+
+main .section6 .contaBoxSec6 {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+main .section6 .contaBoxSec6 .box1Sec6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .section6 .contaBoxSec6 .box1Sec6 h4 {
+    text-align: center;
+    width: 170px;
+    font-family: sans-serif;
+}
+
+main .section6 .contaBoxSec6 .box1Sec6 a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+main .section6 .contaBoxSec6 .box2Sec6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .section6 .contaBoxSec6 .box3Sec6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .section6 .contaBoxSec6 .box2Sec6 h4 {
+    text-align: center;
+    width: 170px;
+    font-family: sans-serif;
+}
+
+main .section6 .contaBoxSec6 .box2Sec6 a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+main .section6 .contaBoxSec6 .box3Sec6 h4 {
+    text-align: center;
+    width: 170px;
+    font-family: sans-serif;
+}
+
+main .section6 .contaBoxSec6 .box3Sec6 a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+/* section6 */
+/* section7 */
+main .section7 {
+    padding: 40px 120px;
+    display: flex;
+    justify-content: center;
+}
+
+main .section7 .imgSec7 {
+    margin: 40px 120px;
+    width: 500px;
+    height: 500px;
+}
+
+main .section7 .imgSec7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .section7 .section7Text {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-family: sans-serif;
+}
+
+main .section7 .section7Text h1 {
+    font-size: 40px;
+}
+
+main .section7 .section7Text ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .section7 .section7Text button {
+    height: 45px;
+    width: 120px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+/* section7 */
+/* section8 */
+main .section8 .contaSec8 {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-areas:
+        "leftBigBox right1"
+        "leftBigBox right2";
+}
+
+main .section8 .leftBigBox {
+    grid-area: leftBigBox;
+    height: 500px;
+    width: 890px;
+    /* width: 790px;
+    height: 600px; */
+}
+
+main .section8 .leftBigBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .section8 .right1 {
+    grid-area: right1;
+    height: 250px;
+    width: 445px;
+    /* width: 540px;
+    height: 300px; */
+}
+
+main .section8 .right1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .section8 .right2 {
+    grid-area: right2;
+    height: 250px;
+    width: 445px;
+    /* width: 540px;
+    height: 300px; */
+}
+
+main .section8 .right2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* section8 */
+/* section9 */
+main .section9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+main .section9 .imgSec9 {
+    width: 300px;
+    height: 350px;
+}
+
+main .section9 .imgSec9 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .section9 .section9Text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+main .section9 .section9Text .section9Text1 {
+    font-family: sans-serif;
+}
+
+main .section9 .section9Text .section9Text1 h1 {
+    font-size: 40px;
+}
+
+main .section9 .section9Text .section9Text1 h4 {
+    color: rgba(24, 10, 10, 0.514);
+}
+
+main .section9 .section9Text .section9Text1 nav ul li {
+    color: rgba(24, 10, 10, 0.514);
+}
+
+main .section9 .section9Text .section9Text2 {
+    font-family: sans-serif;
+    margin-top: 45px;
+}
+
+main .section9 .section9Text .section9Text2 h4 {
+    color: rgba(24, 10, 10, 0.514);
+}
+
+main .section9 .section9Text .section9Text2 nav ul li {
+    color: rgba(24, 10, 10, 0.514);
+}
+
+/* section9 */
+/* footer */
+/* footer */
+footer{
+    background-color: #333333;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .contaFooter{
+    display: flex;
+    word-spacing: 5px;
+    gap: 5px;
+    color: #ffffff
+}
+footer .contaFooter a{
+    color: #f9b7b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1350px) {
+    main .section8 .contaSec8 {
+        width: 1350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-template-areas:
+            "leftBigBox"
+            "leftBigBox"
+            "right1"
+            "right2";
+            width: 100%;
+    }
+
+    main .section8 .contaSec8 .leftBigBox {
+        width: 100%;
+    }
+
+    main .section8 .contaSec8 .right1 {
+        width: 100%;
+        height: 600px;
+        /* width: 100%;
+        height: 100%; */
+    }
+
+    main .section8 .contaSec8 .right2 {
+        width: 100%;
+        height: 600px;
+        /* width: 100%;
+        height: 100%; */
+    }
+}
+
+@media(max-width:1000px) {
+    main .section1 {
+        background-image: url(assets/1e337aca6926e6390da9170be3bb09db\ \(1\).png);
+        padding: 0px;
+        background-repeat: no-repeat;
+        background-size: 1500px;
+        background-position: center;
+
+    }
+
+    /* section1 */
+    main .section1 {
+        padding: 0px;
+        width: 100%;
+
+    }
+
+    main .section1 .section1Text {
+        padding: 0px;
+        width: fit-content;
+    }
+
+    main .section1 .section1Text p {
+        padding: 0;
+    }
+
+    /* section1 */
+    /* section2 */
+    main .section2 .section2Text {
+        padding: 0;
+        width: fit-content;
+    }
+
+    main .section2 {
+        padding: 0;
+        width: 100%;
+    }
+
+    main .section2 .imgSec2 {
+        width: 100%;
+        height: 100%;
+        position: static;
+        top: 0;
+    }
+
+    /* section2 */
+    /* section3 */
+    main .section3 {
+        padding: 0px;
+    }
+
+    main .section3 .section3Text {
+        width: fit-content;
+        margin-bottom: 500px;
+    }
+
+    main .section3 .imgSec3 {
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main .section3 .imgSec3 .img1Sec3 {
+        position: static;
+        width: fit-content;
+    }
+
+    main .section3 .imgSec3 .img2Sec3 {
+        position: static;
+        right: 0px;
+        width: fit-content;
+
+    }
+
+    /* section3 */
+    /* section5 */
+    main .section5 {
+        background-position: center;
+        width: 100%;
+        background-size: 1500px;
+
+    }
+
+    main .section5 .section5Text {
+        padding: 0px;
+        width: 250px;
+    }
+
+    /* section5 */
+    /* section6 */
+    main .section6 .contaBoxSec6 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* section6 */
+    /* section7 */
+    main .section7 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+
+    main .section7 .section7Text {
+        padding: 0px;
+    }
+
+    main .section7 .imgSec7 {
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* section7 */
+    /* section8 */
+    main .section8 .contaSec8 {
+        grid-template-areas:
+        "leftBigBox"
+        "leftBigBox"
+        "right1"
+        "right2";
+    }
+    
+    
+    main .section8 .contaSec8 .right1 {
+        width: fit-content;
+        /* width: 100%;
+        height: 100%; */
+    }
+    
+    main .section8 .contaSec8 .right2 {
+        width: fit-content;
+        /* width: 100%;
+        height: 100%; */
+    }
+    /* section8 */
+    
+
+}
